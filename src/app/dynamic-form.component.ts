@@ -22,6 +22,7 @@ export class DynamicFormComponent implements OnInit {
   }
 
   onSubmit() {
+    // to access further e.g. the email field \: this.myForm.value.email
     this.payLoad = JSON.stringify(this.form.value);
   }
 }
